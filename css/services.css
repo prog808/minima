@@ -1,0 +1,50 @@
+.services {
+  padding: 100px 0;
+}
+.services__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services__block {
+  max-width: 346px;
+}
+.services__block_margin {
+  margin: 0 20px;
+}
+.services__h2 {
+  font-size: 1.375em !important;
+  font-weight: 700;
+  margin: 32px 0;
+  letter-spacing: 1px;
+}
+.services__p {
+  font-weight: 400;
+  line-height: 1.571;
+  text-align: center;
+}
+
+.sprite-designer, .sprite-gauge, .sprite-photocamera {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 71px;
+  width: 55px;
+  background-position: -4px -4px;
+  margin: 0 auto;
+}
+
+.sprite-gauge {
+  width: 71px;
+  background-position: -67px -4px;
+}
+
+.sprite-photocamera {
+  width: 81px;
+  background-position: -146px -4px;
+}

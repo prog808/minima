@@ -1,0 +1,40 @@
+.billboard {
+  height: 652px;
+  width: 100%;
+  background: url(../img/billboard.jpg) center center/cover no-repeat;
+}
+.billboard__inner {
+  padding-top: 219px;
+}
+.billboard__h1, .billboard__text {
+  font-family: 'Satellite', sans-serif;
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 3.125em;
+  font-weight: normal;
+  letter-spacing: -.4px;
+}
+.billboard__text {
+  font-family: 'opensans_regular', sans-serif;
+  font-size: 1em;
+  margin: 19px 0 40px;
+  letter-spacing: .8px;
+}
+.billboard__link {
+  color: #fff;
+  font-size: 1.125em;
+  display: block;
+  border-radius: 50px;
+  background: #4d4d4d;
+  padding: .8em 0;
+  padding-left: 4.19em;
+  position: relative;
+  width: 16.1em;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.billboard__arrow {
+  position: absolute;
+  top: 23px;
+  right: 78px;
+}

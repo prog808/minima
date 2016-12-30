@@ -1,0 +1,85 @@
+@font-face {
+    font-family:"Flatform-Light";
+    src:url("../fonts/Flatform/Flatform_Light.eot?") format("eot"),
+        url("../fonts/Flatform/Flatform_Light.woff") format("woff"),
+        url("../fonts/Flatform/Flatform_Light.ttf") format("truetype"),
+        url("../fonts/Flatform/Flatform_Light.svg#Flatform-Light") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Satellite';
+    src: url('../fonts/Satellite/satellite-webfont.eot');
+    src: url('../fonts/Satellite/satellite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Satellite/satellite-webfont.woff') format('woff'),
+         url('../fonts/Satellite/satellite-webfont.ttf') format('truetype'),
+         url('../fonts/Satellite/satellite-webfont.svg#satelliteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"Socialico";
+    src:url("../fonts/Socialico/Socialico.eot?") format("eot"),
+        url("../fonts/Socialico/Socialico.woff") format("woff"),
+        url("../fonts/Socialico/Socialico.ttf") format("truetype"),
+        url("../fonts/Socialico/Socialico.svg#Socialico") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'opensans_bold';
+    src: url('../fonts/opensans_bold/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/opensans_bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_bold/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/opensans_bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_bold/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans_bolditalic';
+    src: url('../fonts/opensans_bolditalic/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/opensans_bolditalic/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_bolditalic/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/opensans_bolditalic/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_bolditalic/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans_light';
+    src: url('../fonts/opensans_light/OpenSans-Light-webfont.eot');
+    src: url('../fonts/opensans_light/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_light/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/opensans_light/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_light/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans_regular';
+    src: url('../fonts/opensans_regular/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/opensans_regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_regular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/opensans_regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans_semibold';
+    src: url('../fonts/opensans_semibold/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/opensans_semibold/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_semibold/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans_semibold/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

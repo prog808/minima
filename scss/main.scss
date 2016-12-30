@@ -1,0 +1,54 @@
+@import url(header.css);
+@import url(billboard.css);
+@import url(services.css);
+@import url(footer.css);
+
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto; 
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h2 {
+    font-family: 'opensans_bold', sans-serif;
+    color: #4d4d4d;
+    font-size: 1.875em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p {
+    font-family: 'opensans_regular', sans-serif;
+    color:  #727272;
+    font-size: 0.875em;
+}
+.link {
+    font-family: 'opensans_regular', sans-serif;
+}
+
+.arrow {
+    background: url(../img/arrow.svg) no-repeat;
+    height: 5px;
+    width: 13px;
+}
+
+
+@media screen and (max-width: 1300px)  {
+    .inner {
+        width: 93%;
+    }
+}

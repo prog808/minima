@@ -1,0 +1,47 @@
+.services {
+    padding: 100px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        max-width: 346px;
+        &_margin {
+            margin: 0 20px;
+        }
+    }
+    &__h2 {
+        font-size: 1.375em !important;
+        font-weight: 700;
+        margin: 32px 0;
+        letter-spacing: 1px;
+    }
+    &__p {
+        font-weight: 400;
+        line-height: 1.571;
+        text-align: center;
+    }
+    
+}
+
+.sprite-designer {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 71px;
+    width: 55px;
+    background-position: -4px -4px;
+    margin: 0 auto;
+}
+
+.sprite-gauge {
+    @extend .sprite-designer;
+    width: 71px;
+    background-position: -67px -4px;
+}
+
+.sprite-photocamera {
+    @extend .sprite-designer;
+    width: 81px;
+    background-position: -146px -4px;
+}
