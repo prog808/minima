@@ -30,6 +30,17 @@
 }
 
 @font-face {
+    font-family: 'Arrow';
+    src: url('../fonts/Arrow/arrows_adf-webfont.eot');
+    src: url('../fonts/Arrow/arrows_adf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arrow/arrows_adf-webfont.woff') format('woff'),
+         url('../fonts/Arrow/arrows_adf-webfont.ttf') format('truetype'),
+         url('../fonts/Arrow/arrows_adf-webfont.svg#arrows_adfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'opensans_bold';
     src: url('../fonts/opensans_bold/OpenSans-Bold-webfont.eot');
     src: url('../fonts/opensans_bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),

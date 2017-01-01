@@ -1,0 +1,49 @@
+.work {
+    &__inner {
+        padding: 93px 0 99px;
+    }
+    &__h2 {
+        margin-bottom: 75px;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        background: #f7f7f7;
+        width: 262px;
+        height: 320px;
+        position: relative;
+    }
+    &__a {
+        display: block;
+        font-family: 'opensans_semibold', sans-serif;
+        background: rgba(59, 59, 59, 0.85);
+        width: 100%;
+        color:  #ffffff;
+        padding: 20px 0 22px;
+        padding-left: 61px;
+        font-size: 1em;
+        font-weight: 600;
+        position: absolute;
+        bottom: 0;
+        letter-spacing: 1px;
+    }
+    &__arrow {
+        top: 28px;
+        right: 63px;
+    }
+}
+
+@media screen and (max-width: 1300px)  {
+    .work {
+        &__box {
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        &__block {
+            margin: 10px;
+        }
+    }
+}

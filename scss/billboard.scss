@@ -20,13 +20,13 @@
         margin: 19px 0 40px;
         letter-spacing: .8px;
     }
-    &__link {
+    &__btn {
         color: #fff;
         font-size: 1.125em;
         display: block;
         border-radius: 50px;
         background: #4d4d4d;
-        padding: .8em 0;
+        line-height: 2.7;
         padding-left: 4.19em;
         position: relative;
         width: 16.1em;
@@ -34,7 +34,6 @@
         text-transform: uppercase;
     }
     &__arrow {
-        position: absolute;
         top: 23px;
         right: 78px;
     }
